@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model>
+    <listOfUnitDefinitions>
+      <unitDefinition id="per_second"/>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="cytosol" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="sp9" name="egf(r^1).egfr(l^1,r,Y1068=Y,Y1148=Y)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp14" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=Y).egfr(l^3,r^2,Y1068=pY,Y1148=Y).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp0" name="egf(r)" compartment="cytosol" initialAmount="0.1"/>
+      <species id="sp10" name="egf(r^1).egfr(l^1,r,Y1068=Y,Y1148=pY)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp2" name="Shc(PTB,Y317=Y)" compartment="cytosol" initialAmount="0.3"/>
+      <species id="sp7" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=Y).egf(r^5).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp17" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=pY).egfr(l^3,r^2,Y1068=pY,Y1148=Y).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp4" name="egfr(l,r,Y1068=Y,Y1148=Y)" compartment="cytosol" initialAmount="0.5"/>
+      <species id="sp16" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=pY).egfr(l^3,r^2,Y1068=Y,Y1148=pY).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp15" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=Y).egfr(l^3,r^2,Y1068=pY,Y1148=pY).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp1" name="Grb2(SH2,SH3)" compartment="cytosol" initialAmount="0.2"/>
+      <species id="sp18" name="egf(r^1).egfr(l^1,r^2,Y1068=pY,Y1148=Y).egfr(l^3,r^2,Y1068=pY,Y1148=Y).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp5" name="Grb2(SH2,SH3^1).Sos(dom^1)" compartment="cytosol" initialAmount="0.6"/>
+      <species id="sp3" name="Sos(dom)" compartment="cytosol" initialAmount="0.4"/>
+      <species id="sp12" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=Y).egfr(l^3,r^2,Y1068=Y,Y1148=Y).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp11" name="egf(r^1).egfr(l^1,r,Y1068=pY,Y1148=Y)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp6" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp13" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=Y).egfr(l^3,r^2,Y1068=Y,Y1148=pY).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp8" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="r0">
+        <listOfReactants>
+          <speciesReference species="sp12"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r1">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp18"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r2">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp7"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r3">
+        <listOfReactants>
+          <speciesReference species="sp12"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp9"/>
+          <speciesReference species="sp9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r4">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp6"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r5">
+        <listOfReactants>
+          <speciesReference species="sp13"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp12"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r6">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp17"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r7">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp12"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r8">
+        <listOfReactants>
+          <speciesReference species="sp13"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp16"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r9">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r10">
+        <listOfReactants>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp4"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r11">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp13"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp8"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r12">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp9"/>
+          <speciesReference species="sp11"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r13">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r14">
+        <listOfReactants>
+          <speciesReference species="sp12"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp13"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r15">
+        <listOfReactants>
+          <speciesReference species="sp9"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp4"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r16">
+        <listOfReactants>
+          <speciesReference species="sp13"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp9"/>
+          <speciesReference species="sp10"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r17">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp15"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r18">
+        <listOfReactants>
+          <speciesReference species="sp13"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp17"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r19">
+        <listOfReactants>
+          <speciesReference species="sp13"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp15"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r20">
+        <listOfReactants>
+          <speciesReference species="sp9"/>
+          <speciesReference species="sp9"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp12"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

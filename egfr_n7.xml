@@ -1,0 +1,4437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model>
+    <listOfUnitDefinitions>
+      <unitDefinition id="per_second"/>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="cytosol" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="sp50" name="Grb2(SH2^1,SH3^2).Shc(PTB^3,Y317=pY^1).egfr(l^4,r^5,Y1068=pY,Y1148=pY^3).egf(r^4).egfr(l^6,r^5,Y1068=Y,Y1148=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp24" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^5,r^3,Y1068=pY^4,Y1148=Y).Grb2(SH2^4,SH3).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp56" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=pY).egf(r^5).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp123" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=pY).egfr(l^3,r^2,Y1068=pY,Y1148=Y).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp108" name="Shc(PTB^1,Y317=pY).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp95" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=pY,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp84" name="Shc(PTB^1,Y317=Y).egfr(l,r,Y1068=pY,Y1148=pY^1)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp18" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp2" name="Shc(PTB,Y317=Y)" compartment="cytosol" initialAmount="0.3"/>
+      <species id="sp103" name="Shc(PTB^1,Y317=pY).egfr(l^2,r,Y1068=Y,Y1148=pY^1).egf(r^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp111" name="Shc(PTB^1,Y317=pY).egfr(l^2,r^3,Y1068=pY,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp69" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY).egf(r^3).egfr(l^5,r^4,Y1068=pY,Y1148=pY).egf(r^5).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp115" name="egf(r^1).egfr(l^1,r,Y1068=Y,Y1148=pY)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp14" name="Grb2(SH2^1,SH3).egfr(l^2,r,Y1068=pY^1,Y1148=Y).egf(r^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp119" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=Y).egfr(l^3,r^2,Y1068=Y,Y1148=pY).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp117" name="egf(r^1).egfr(l^1,r,Y1068=pY,Y1148=pY)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp87" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp126" name="egf(r^1).egfr(l^1,r^2,Y1068=pY,Y1148=Y).egfr(l^3,r^2,Y1068=pY,Y1148=pY).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp44" name="Grb2(SH2^1,SH3).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY^2).Shc(PTB^2,Y317=pY).egf(r^3).egfr(l^5,r^4,Y1068=pY,Y1148=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp130" name="egfr(l,r,Y1068=pY,Y1148=pY)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp114" name="egf(r^1).egfr(l^1,r,Y1068=Y,Y1148=Y)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp16" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp28" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=pY).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp29" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=pY).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp10" name="Grb2(SH2^1,SH3).Shc(PTB^2,Y317=pY^1).egfr(l^3,r^4,Y1068=Y,Y1148=pY^2).egf(r^3).egfr(l^5,r^4,Y1068=pY,Y1148=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp122" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=pY).egfr(l^3,r^2,Y1068=Y,Y1148=pY).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp12" name="Grb2(SH2^1,SH3).egfr(l,r,Y1068=pY^1,Y1148=Y)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp36" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=pY).egf(r^2).egfr(l^5,r^3,Y1068=pY^4,Y1148=pY).Grb2(SH2^4,SH3^6).Sos(dom^6).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp19" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp42" name="Grb2(SH2^1,SH3).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY^2).Shc(PTB^2,Y317=pY).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp21" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^5,r^3,Y1068=Y,Y1148=pY^4).Shc(PTB^4,Y317=pY).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp5" name="Grb2(SH2,SH3^1).Sos(dom^1)" compartment="cytosol" initialAmount="0.6"/>
+      <species id="sp3" name="Sos(dom)" compartment="cytosol" initialAmount="0.4"/>
+      <species id="sp32" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=pY).egf(r^2).egfr(l^5,r^3,Y1068=Y,Y1148=pY^4).Shc(PTB^4,Y317=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp80" name="Grb2(SH2^1,SH3^2).egfr(l^4,r^5,Y1068=pY^1,Y1148=pY^3).Shc(PTB^3,Y317=pY).egf(r^4).egfr(l^6,r^5,Y1068=Y,Y1148=pY).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp82" name="Shc(PTB,Y317=pY)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp67" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=pY).egf(r^5).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp64" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^6,r^4,Y1068=pY^5,Y1148=pY).Grb2(SH2^5,SH3).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp43" name="Grb2(SH2^1,SH3).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY^2).Shc(PTB^2,Y317=pY).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=pY).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp68" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY).egf(r^3).egfr(l^5,r^4,Y1068=pY,Y1148=Y).egf(r^5).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp22" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^5,r^3,Y1068=pY,Y1148=pY^4).Shc(PTB^4,Y317=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp73" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY).egf(r^3).egfr(l^6,r^4,Y1068=pY^5,Y1148=pY).Grb2(SH2^5,SH3^7).Sos(dom^7).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp93" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^5,r^3,Y1068=pY,Y1148=pY^4).Shc(PTB^4,Y317=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp39" name="Grb2(SH2^1,SH3).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY^2).Shc(PTB^2,Y317=Y).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp9" name="Grb2(SH2^1,SH3).Shc(PTB^2,Y317=pY^1).egfr(l^3,r^4,Y1068=Y,Y1148=pY^2).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=pY).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp92" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^5,r^3,Y1068=Y,Y1148=pY^4).Shc(PTB^4,Y317=pY).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp59" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^6,r^4,Y1068=Y,Y1148=pY^5).Shc(PTB^5,Y317=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp127" name="egf(r^1).egfr(l^1,r^2,Y1068=pY,Y1148=pY).egfr(l^3,r^2,Y1068=pY,Y1148=pY).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp41" name="Grb2(SH2^1,SH3).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY^2).Shc(PTB^2,Y317=Y).egf(r^3).egfr(l^5,r^4,Y1068=pY,Y1148=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp88" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp52" name="Grb2(SH2^1,SH3^2).egfr(l,r,Y1068=pY^1,Y1148=pY).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp81" name="Grb2(SH2^1,SH3^2).egfr(l^4,r^5,Y1068=pY^1,Y1148=pY^3).Shc(PTB^3,Y317=pY).egf(r^4).egfr(l^6,r^5,Y1068=pY,Y1148=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp74" name="Grb2(SH2^1,SH3^2).egfr(l^4,r,Y1068=pY^1,Y1148=pY^3).Shc(PTB^3,Y317=Y).egf(r^4).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp97" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=pY,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp7" name="Grb2(SH2^1,SH3).Shc(PTB^2,Y317=pY^1).egfr(l^3,r,Y1068=Y,Y1148=pY^2).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp91" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^5,r^3,Y1068=Y,Y1148=pY^4).Shc(PTB^4,Y317=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp57" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^5,r^4,Y1068=pY,Y1148=Y).egf(r^5).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp63" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^6,r^4,Y1068=pY^5,Y1148=Y).Grb2(SH2^5,SH3^7).Sos(dom^7).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp105" name="Shc(PTB^1,Y317=pY).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp33" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=pY).egf(r^2).egfr(l^5,r^3,Y1068=Y,Y1148=pY^4).Shc(PTB^4,Y317=pY).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp120" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=Y).egfr(l^3,r^2,Y1068=pY,Y1148=Y).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp61" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^6,r^4,Y1068=pY,Y1148=pY^5).Shc(PTB^5,Y317=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp77" name="Grb2(SH2^1,SH3^2).egfr(l^4,r^5,Y1068=pY^1,Y1148=pY^3).Shc(PTB^3,Y317=Y).egf(r^4).egfr(l^6,r^5,Y1068=Y,Y1148=pY).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp66" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=Y).egf(r^5).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp116" name="egf(r^1).egfr(l^1,r,Y1068=pY,Y1148=Y)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp78" name="Grb2(SH2^1,SH3^2).egfr(l^4,r^5,Y1068=pY^1,Y1148=pY^3).Shc(PTB^3,Y317=Y).egf(r^4).egfr(l^6,r^5,Y1068=pY,Y1148=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp31" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=pY).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp125" name="egf(r^1).egfr(l^1,r^2,Y1068=pY,Y1148=Y).egfr(l^3,r^2,Y1068=pY,Y1148=Y).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp71" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY).egf(r^3).egfr(l^6,r^4,Y1068=Y,Y1148=pY^5).Shc(PTB^5,Y317=pY).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp109" name="Shc(PTB^1,Y317=pY).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^5,r^3,Y1068=Y,Y1148=pY^4).Shc(PTB^4,Y317=pY).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp124" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=pY).egfr(l^3,r^2,Y1068=pY,Y1148=pY).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp40" name="Grb2(SH2^1,SH3).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY^2).Shc(PTB^2,Y317=Y).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=pY).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp45" name="Grb2(SH2^1,SH3^2).Shc(PTB,Y317=pY^1).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp0" name="egf(r)" compartment="cytosol" initialAmount="0.1"/>
+      <species id="sp96" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=pY,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp48" name="Grb2(SH2^1,SH3^2).Shc(PTB^3,Y317=pY^1).egfr(l^4,r^5,Y1068=Y,Y1148=pY^3).egf(r^4).egfr(l^6,r^5,Y1068=Y,Y1148=pY).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp60" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^6,r^4,Y1068=Y,Y1148=pY^5).Shc(PTB^5,Y317=pY).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp98" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=pY,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp102" name="Shc(PTB^1,Y317=pY).egfr(l,r,Y1068=pY,Y1148=pY^1)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp83" name="Shc(PTB^1,Y317=Y).egfr(l,r,Y1068=Y,Y1148=pY^1)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp62" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^6,r^4,Y1068=pY,Y1148=pY^5).Shc(PTB^5,Y317=pY).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp128" name="egfr(l,r,Y1068=Y,Y1148=pY)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp121" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=Y).egfr(l^3,r^2,Y1068=pY,Y1148=pY).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp23" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^5,r^3,Y1068=pY,Y1148=pY^4).Shc(PTB^4,Y317=pY).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp90" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp72" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY).egf(r^3).egfr(l^6,r^4,Y1068=pY,Y1148=pY^5).Shc(PTB^5,Y317=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp53" name="Grb2(SH2^1,SH3^2).egfr(l^3,r,Y1068=pY^1,Y1148=Y).egf(r^3).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp25" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^5,r^3,Y1068=pY^4,Y1148=Y).Grb2(SH2^4,SH3^6).Sos(dom^6).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp70" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=pY).egf(r^3).egfr(l^6,r^4,Y1068=Y,Y1148=pY^5).Shc(PTB^5,Y317=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp47" name="Grb2(SH2^1,SH3^2).Shc(PTB^3,Y317=pY^1).egfr(l^4,r^5,Y1068=Y,Y1148=pY^3).egf(r^4).egfr(l^6,r^5,Y1068=Y,Y1148=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp107" name="Shc(PTB^1,Y317=pY).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp129" name="egfr(l,r,Y1068=pY,Y1148=Y)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp110" name="Shc(PTB^1,Y317=pY).egfr(l^2,r^3,Y1068=pY,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp55" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=Y).egf(r^5).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp46" name="Grb2(SH2^1,SH3^2).Shc(PTB^3,Y317=pY^1).egfr(l^4,r,Y1068=Y,Y1148=pY^3).egf(r^4).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp27" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^5,r^3,Y1068=pY^4,Y1148=pY).Grb2(SH2^4,SH3^6).Sos(dom^6).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp38" name="Grb2(SH2^1,SH3).egfr(l^3,r,Y1068=pY^1,Y1148=pY^2).Shc(PTB^2,Y317=pY).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp118" name="egf(r^1).egfr(l^1,r^2,Y1068=Y,Y1148=Y).egfr(l^3,r^2,Y1068=Y,Y1148=Y).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp101" name="Shc(PTB^1,Y317=pY).egfr(l,r,Y1068=Y,Y1148=pY^1)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp100" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=pY,Y1148=pY^1).egf(r^2).egfr(l^5,r^3,Y1068=pY,Y1148=pY^4).Shc(PTB^4,Y317=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp51" name="Grb2(SH2^1,SH3^2).egfr(l,r,Y1068=pY^1,Y1148=Y).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp94" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^5,r^3,Y1068=pY,Y1148=pY^4).Shc(PTB^4,Y317=pY).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp1" name="Grb2(SH2,SH3)" compartment="cytosol" initialAmount="0.2"/>
+      <species id="sp76" name="Grb2(SH2^1,SH3^2).egfr(l^4,r^5,Y1068=pY^1,Y1148=pY^3).Shc(PTB^3,Y317=Y).egf(r^4).egfr(l^6,r^5,Y1068=Y,Y1148=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp106" name="Shc(PTB^1,Y317=pY).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp34" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=pY).egf(r^2).egfr(l^5,r^3,Y1068=pY,Y1148=pY^4).Shc(PTB^4,Y317=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp65" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^6,r^4,Y1068=pY^5,Y1148=pY).Grb2(SH2^5,SH3^7).Sos(dom^7).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp13" name="Grb2(SH2^1,SH3).egfr(l,r,Y1068=pY^1,Y1148=pY)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp8" name="Grb2(SH2^1,SH3).Shc(PTB^2,Y317=pY^1).egfr(l^3,r^4,Y1068=Y,Y1148=pY^2).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp17" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^4,r^3,Y1068=Y,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp49" name="Grb2(SH2^1,SH3^2).Shc(PTB^3,Y317=pY^1).egfr(l^4,r^5,Y1068=Y,Y1148=pY^3).egf(r^4).egfr(l^6,r^5,Y1068=pY,Y1148=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp85" name="Shc(PTB^1,Y317=Y).egfr(l^2,r,Y1068=Y,Y1148=pY^1).egf(r^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp26" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^5,r^3,Y1068=pY^4,Y1148=pY).Grb2(SH2^4,SH3).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp86" name="Shc(PTB^1,Y317=Y).egfr(l^2,r,Y1068=pY,Y1148=pY^1).egf(r^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp35" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=pY).egf(r^2).egfr(l^5,r^3,Y1068=pY^4,Y1148=pY).Grb2(SH2^4,SH3).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp6" name="Grb2(SH2^1,SH3).Shc(PTB,Y317=pY^1)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp75" name="Grb2(SH2^1,SH3^2).egfr(l^4,r,Y1068=pY^1,Y1148=pY^3).Shc(PTB^3,Y317=pY).egf(r^4).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp113" name="Shc(PTB^1,Y317=pY).egfr(l^2,r^3,Y1068=pY,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=pY).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp11" name="Grb2(SH2^1,SH3).Shc(PTB^2,Y317=pY^1).egfr(l^3,r^4,Y1068=pY,Y1148=pY^2).egf(r^3).egfr(l^5,r^4,Y1068=Y,Y1148=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp112" name="Shc(PTB^1,Y317=pY).egfr(l^2,r^3,Y1068=pY,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp4" name="egfr(l,r,Y1068=Y,Y1148=Y)" compartment="cytosol" initialAmount="0.5"/>
+      <species id="sp20" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=Y).egf(r^2).egfr(l^5,r^3,Y1068=Y,Y1148=pY^4).Shc(PTB^4,Y317=Y).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp54" name="Grb2(SH2^1,SH3^2).egfr(l^3,r,Y1068=pY^1,Y1148=pY).egf(r^3).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp58" name="Grb2(SH2^1,SH3^2).egfr(l^3,r^4,Y1068=pY^1,Y1148=Y).egf(r^3).egfr(l^5,r^4,Y1068=pY,Y1148=pY).egf(r^5).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp37" name="Grb2(SH2^1,SH3).egfr(l^3,r,Y1068=pY^1,Y1148=pY^2).Shc(PTB^2,Y317=Y).egf(r^3)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp104" name="Shc(PTB^1,Y317=pY).egfr(l^2,r,Y1068=pY,Y1148=pY^1).egf(r^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp89" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=Y,Y1148=pY^1).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp79" name="Grb2(SH2^1,SH3^2).egfr(l^4,r^5,Y1068=pY^1,Y1148=pY^3).Shc(PTB^3,Y317=pY).egf(r^4).egfr(l^6,r^5,Y1068=Y,Y1148=Y).egf(r^6).Sos(dom^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp30" name="Grb2(SH2^1,SH3).egfr(l^2,r^3,Y1068=pY^1,Y1148=pY).egf(r^2).egfr(l^4,r^3,Y1068=pY,Y1148=Y).egf(r^4)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp15" name="Grb2(SH2^1,SH3).egfr(l^2,r,Y1068=pY^1,Y1148=pY).egf(r^2)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp99" name="Shc(PTB^1,Y317=Y).egfr(l^2,r^3,Y1068=pY,Y1148=pY^1).egf(r^2).egfr(l^5,r^3,Y1068=Y,Y1148=pY^4).Shc(PTB^4,Y317=pY).egf(r^5)" compartment="cytosol" initialAmount="0"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="r0">
+        <listOfReactants>
+          <speciesReference species="sp29"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp40"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r1">
+        <listOfReactants>
+          <speciesReference species="sp39"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp41"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r2">
+        <listOfReactants>
+          <speciesReference species="sp123"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp119"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r3">
+        <listOfReactants>
+          <speciesReference species="sp68"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp78"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r4">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp119"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp105"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r5">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp58"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp64"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r6">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp96"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp93"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r7">
+        <listOfReactants>
+          <speciesReference species="sp120"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp121"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r8">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp110"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp50"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r9">
+        <listOfReactants>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp84"/>
+          <speciesReference species="sp0"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r10">
+        <listOfReactants>
+          <speciesReference species="sp89"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp90"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r11">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp18"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp25"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r12">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp90"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r13">
+        <listOfReactants>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp85"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r14">
+        <listOfReactants>
+          <speciesReference species="sp68"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r15">
+        <listOfReactants>
+          <speciesReference species="sp107"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp112"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r16">
+        <listOfReactants>
+          <speciesReference species="sp76"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp77"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r17">
+        <listOfReactants>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp4"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r18">
+        <listOfReactants>
+          <speciesReference species="sp127"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp126"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r19">
+        <listOfReactants>
+          <speciesReference species="sp96"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp124"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r20">
+        <listOfReactants>
+          <speciesReference species="sp17"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp29"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r21">
+        <listOfReactants>
+          <speciesReference species="sp76"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp66"/>
+          <speciesReference species="sp2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r22">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp111"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r23">
+        <listOfReactants>
+          <speciesReference species="sp58"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp62"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r24">
+        <listOfReactants>
+          <speciesReference species="sp85"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp83"/>
+          <speciesReference species="sp0"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r25">
+        <listOfReactants>
+          <speciesReference species="sp28"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp39"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r26">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp127"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp69"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r27">
+        <listOfReactants>
+          <speciesReference species="sp110"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp95"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r28">
+        <listOfReactants>
+          <speciesReference species="sp119"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp121"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r29">
+        <listOfReactants>
+          <speciesReference species="sp12"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp51"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r30">
+        <listOfReactants>
+          <speciesReference species="sp123"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp126"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r31">
+        <listOfReactants>
+          <speciesReference species="sp63"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp53"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r32">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp54"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp36"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r33">
+        <listOfReactants>
+          <speciesReference species="sp47"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp48"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r34">
+        <listOfReactants>
+          <speciesReference species="sp59"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp61"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r35">
+        <listOfReactants>
+          <speciesReference species="sp30"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp126"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r36">
+        <listOfReactants>
+          <speciesReference species="sp106"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp88"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r37">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp107"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp49"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r38">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp114"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp55"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r39">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp58"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r40">
+        <listOfReactants>
+          <speciesReference species="sp76"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp79"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r41">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp121"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp28"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r42">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp38"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r43">
+        <listOfReactants>
+          <speciesReference species="sp88"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp90"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r44">
+        <listOfReactants>
+          <speciesReference species="sp30"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r45">
+        <listOfReactants>
+          <speciesReference species="sp114"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp120"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r46">
+        <listOfReactants>
+          <speciesReference species="sp120"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp118"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r47">
+        <listOfReactants>
+          <speciesReference species="sp91"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp88"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r48">
+        <listOfReactants>
+          <speciesReference species="sp17"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp123"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r49">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp85"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r50">
+        <listOfReactants>
+          <speciesReference species="sp20"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp85"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r51">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp106"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp92"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r52">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp121"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp110"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r53">
+        <listOfReactants>
+          <speciesReference species="sp130"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp128"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r54">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp119"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp87"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r55">
+        <listOfReactants>
+          <speciesReference species="sp120"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp123"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r56">
+        <listOfReactants>
+          <speciesReference species="sp76"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp78"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r57">
+        <listOfReactants>
+          <speciesReference species="sp121"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp119"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r58">
+        <listOfReactants>
+          <speciesReference species="sp106"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp111"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r59">
+        <listOfReactants>
+          <speciesReference species="sp12"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp129"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r60">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp107"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp21"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r61">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp107"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp10"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r62">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp128"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp83"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r63">
+        <listOfReactants>
+          <speciesReference species="sp91"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp93"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r64">
+        <listOfReactants>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp85"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp91"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r65">
+        <listOfReactants>
+          <speciesReference species="sp87"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp105"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r66">
+        <listOfReactants>
+          <speciesReference species="sp96"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp98"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r67">
+        <listOfReactants>
+          <speciesReference species="sp103"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp108"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r68">
+        <listOfReactants>
+          <speciesReference species="sp90"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp89"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r69">
+        <listOfReactants>
+          <speciesReference species="sp88"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp106"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r70">
+        <listOfReactants>
+          <speciesReference species="sp105"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp119"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r71">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp96"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp40"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r72">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp97"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp61"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r73">
+        <listOfReactants>
+          <speciesReference species="sp128"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp4"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r74">
+        <listOfReactants>
+          <speciesReference species="sp86"/>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp99"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r75">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp105"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp47"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r76">
+        <listOfReactants>
+          <speciesReference species="sp97"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp98"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r77">
+        <listOfReactants>
+          <speciesReference species="sp120"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp114"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r78">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp17"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r79">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r80">
+        <listOfReactants>
+          <speciesReference species="sp67"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp71"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r81">
+        <listOfReactants>
+          <speciesReference species="sp18"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp30"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r82">
+        <listOfReactants>
+          <speciesReference species="sp63"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp25"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r83">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp37"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r84">
+        <listOfReactants>
+          <speciesReference species="sp25"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp64"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r85">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp54"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp73"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r86">
+        <listOfReactants>
+          <speciesReference species="sp18"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp57"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r87">
+        <listOfReactants>
+          <speciesReference species="sp17"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp19"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r88">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp95"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp39"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r89">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp31"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r90">
+        <listOfReactants>
+          <speciesReference species="sp19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp17"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r91">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp114"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp28"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r92">
+        <listOfReactants>
+          <speciesReference species="sp68"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp66"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r93">
+        <listOfReactants>
+          <speciesReference species="sp90"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp108"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r94">
+        <listOfReactants>
+          <speciesReference species="sp97"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp89"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r95">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp74"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r96">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp45"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r97">
+        <listOfReactants>
+          <speciesReference species="sp17"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp20"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r98">
+        <listOfReactants>
+          <speciesReference species="sp67"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r99">
+        <listOfReactants>
+          <speciesReference species="sp55"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp120"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r100">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp114"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp16"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r101">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp90"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp70"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r102">
+        <listOfReactants>
+          <speciesReference species="sp58"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp19"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r103">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r104">
+        <listOfReactants>
+          <speciesReference species="sp66"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp67"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r105">
+        <listOfReactants>
+          <speciesReference species="sp66"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp121"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r106">
+        <listOfReactants>
+          <speciesReference species="sp122"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp119"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r107">
+        <listOfReactants>
+          <speciesReference species="sp19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp126"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r108">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp29"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r109">
+        <listOfReactants>
+          <speciesReference species="sp68"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp126"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r110">
+        <listOfReactants>
+          <speciesReference species="sp55"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp56"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r111">
+        <listOfReactants>
+          <speciesReference species="sp57"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp68"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r112">
+        <listOfReactants>
+          <speciesReference species="sp125"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp120"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r113">
+        <listOfReactants>
+          <speciesReference species="sp86"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp98"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r114">
+        <listOfReactants>
+          <speciesReference species="sp56"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp55"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r115">
+        <listOfReactants>
+          <speciesReference species="sp68"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp69"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r116">
+        <listOfReactants>
+          <speciesReference species="sp47"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp8"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r117">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp57"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp63"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r118">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r119">
+        <listOfReactants>
+          <speciesReference species="sp47"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp50"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r120">
+        <listOfReactants>
+          <speciesReference species="sp20"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp17"/>
+          <speciesReference species="sp2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r121">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp108"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r122">
+        <listOfReactants>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp115"/>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r123">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp90"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp94"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r124">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp85"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp59"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r125">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp53"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp25"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r126">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp27"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r127">
+        <listOfReactants>
+          <speciesReference species="sp67"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp29"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r128">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp121"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp66"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r129">
+        <listOfReactants>
+          <speciesReference species="sp47"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp45"/>
+          <speciesReference species="sp119"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r130">
+        <listOfReactants>
+          <speciesReference species="sp30"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp18"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r131">
+        <listOfReactants>
+          <speciesReference species="sp63"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp65"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r132">
+        <listOfReactants>
+          <speciesReference species="sp39"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp40"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r133">
+        <listOfReactants>
+          <speciesReference species="sp83"/>
+          <speciesReference species="sp0"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp85"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r134">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp53"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp64"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r135">
+        <listOfReactants>
+          <speciesReference species="sp114"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp119"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r136">
+        <listOfReactants>
+          <speciesReference species="sp17"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r137">
+        <listOfReactants>
+          <speciesReference species="sp110"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp112"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r138">
+        <listOfReactants>
+          <speciesReference species="sp67"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp70"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r139">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp85"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp20"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r140">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp71"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r141">
+        <listOfReactants>
+          <speciesReference species="sp107"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp108"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r142">
+        <listOfReactants>
+          <speciesReference species="sp17"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp21"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r143">
+        <listOfReactants>
+          <speciesReference species="sp29"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp32"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r144">
+        <listOfReactants>
+          <speciesReference species="sp51"/>
+          <speciesReference species="sp0"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp53"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r145">
+        <listOfReactants>
+          <speciesReference species="sp119"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp122"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r146">
+        <listOfReactants>
+          <speciesReference species="sp121"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp124"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r147">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp125"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp57"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r148">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r149">
+        <listOfReactants>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp93"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r150">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp97"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r151">
+        <listOfReactants>
+          <speciesReference species="sp28"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp30"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r152">
+        <listOfReactants>
+          <speciesReference species="sp89"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp87"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r153">
+        <listOfReactants>
+          <speciesReference species="sp51"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp129"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r154">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r155">
+        <listOfReactants>
+          <speciesReference species="sp56"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp58"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r156">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp123"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp89"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r157">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp90"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp32"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r158">
+        <listOfReactants>
+          <speciesReference species="sp89"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp97"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r159">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp110"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp42"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r160">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp68"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp65"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r161">
+        <listOfReactants>
+          <speciesReference species="sp125"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp116"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r162">
+        <listOfReactants>
+          <speciesReference species="sp76"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp39"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r163">
+        <listOfReactants>
+          <speciesReference species="sp95"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp96"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r164">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp6"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r165">
+        <listOfReactants>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp114"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp87"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r166">
+        <listOfReactants>
+          <speciesReference species="sp66"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r167">
+        <listOfReactants>
+          <speciesReference species="sp58"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp56"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r168">
+        <listOfReactants>
+          <speciesReference species="sp19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r169">
+        <listOfReactants>
+          <speciesReference species="sp105"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp103"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r170">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp58"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp65"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r171">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp97"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp22"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r172">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp127"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp31"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r173">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp85"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp32"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r174">
+        <listOfReactants>
+          <speciesReference species="sp18"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp125"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r175">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp15"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp35"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r176">
+        <listOfReactants>
+          <speciesReference species="sp19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp31"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r177">
+        <listOfReactants>
+          <speciesReference species="sp95"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp86"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r178">
+        <listOfReactants>
+          <speciesReference species="sp58"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp126"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r179">
+        <listOfReactants>
+          <speciesReference species="sp118"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp119"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r180">
+        <listOfReactants>
+          <speciesReference species="sp96"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp95"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r181">
+        <listOfReactants>
+          <speciesReference species="sp55"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r182">
+        <listOfReactants>
+          <speciesReference species="sp121"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp126"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r183">
+        <listOfReactants>
+          <speciesReference species="sp96"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp88"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r184">
+        <listOfReactants>
+          <speciesReference species="sp88"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp122"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r185">
+        <listOfReactants>
+          <speciesReference species="sp90"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r186">
+        <listOfReactants>
+          <speciesReference species="sp103"/>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp109"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r187">
+        <listOfReactants>
+          <speciesReference species="sp89"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp123"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r188">
+        <listOfReactants>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r189">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp95"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp76"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r190">
+        <listOfReactants>
+          <speciesReference species="sp66"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp76"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r191">
+        <listOfReactants>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp121"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r192">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp96"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp77"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r193">
+        <listOfReactants>
+          <speciesReference species="sp68"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp30"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r194">
+        <listOfReactants>
+          <speciesReference species="sp56"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp17"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r195">
+        <listOfReactants>
+          <speciesReference species="sp103"/>
+          <speciesReference species="sp114"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp105"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r196">
+        <listOfReactants>
+          <speciesReference species="sp20"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp21"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r197">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp123"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp17"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r198">
+        <listOfReactants>
+          <speciesReference species="sp118"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp120"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r199">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp107"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp60"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r200">
+        <listOfReactants>
+          <speciesReference species="sp28"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp121"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r201">
+        <listOfReactants>
+          <speciesReference species="sp25"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp53"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r202">
+        <listOfReactants>
+          <speciesReference species="sp115"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp124"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r203">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp106"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp48"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r204">
+        <listOfReactants>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp125"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r205">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp57"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r206">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp123"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp56"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r207">
+        <listOfReactants>
+          <speciesReference species="sp58"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp57"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r208">
+        <listOfReactants>
+          <speciesReference species="sp125"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp126"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r209">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp18"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp24"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r210">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp22"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r211">
+        <listOfReactants>
+          <speciesReference species="sp123"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp120"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r212">
+        <listOfReactants>
+          <speciesReference species="sp89"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r213">
+        <listOfReactants>
+          <speciesReference species="sp29"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp67"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r214">
+        <listOfReactants>
+          <speciesReference species="sp121"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp114"/>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r215">
+        <listOfReactants>
+          <speciesReference species="sp20"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp22"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r216">
+        <listOfReactants>
+          <speciesReference species="sp29"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp33"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r217">
+        <listOfReactants>
+          <speciesReference species="sp56"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp59"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r218">
+        <listOfReactants>
+          <speciesReference species="sp129"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp4"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r219">
+        <listOfReactants>
+          <speciesReference species="sp115"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp123"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r220">
+        <listOfReactants>
+          <speciesReference species="sp121"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp120"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r221">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp97"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp41"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r222">
+        <listOfReactants>
+          <speciesReference species="sp95"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp97"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r223">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp90"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp93"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r224">
+        <listOfReactants>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp89"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r225">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp12"/>
+          <speciesReference species="sp0"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r226">
+        <listOfReactants>
+          <speciesReference species="sp76"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp95"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r227">
+        <listOfReactants>
+          <speciesReference species="sp66"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp68"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r228">
+        <listOfReactants>
+          <speciesReference species="sp8"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r229">
+        <listOfReactants>
+          <speciesReference species="sp56"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp67"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r230">
+        <listOfReactants>
+          <speciesReference species="sp67"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp69"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r231">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp34"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r232">
+        <listOfReactants>
+          <speciesReference species="sp59"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp85"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r233">
+        <listOfReactants>
+          <speciesReference species="sp8"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp7"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r234">
+        <listOfReactants>
+          <speciesReference species="sp88"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp87"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r235">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp75"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r236">
+        <listOfReactants>
+          <speciesReference species="sp28"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r237">
+        <listOfReactants>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp123"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r238">
+        <listOfReactants>
+          <speciesReference species="sp28"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp42"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r239">
+        <listOfReactants>
+          <speciesReference species="sp66"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp28"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r240">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp130"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp84"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r241">
+        <listOfReactants>
+          <speciesReference species="sp39"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp76"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r242">
+        <listOfReactants>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp92"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r243">
+        <listOfReactants>
+          <speciesReference species="sp87"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp119"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r244">
+        <listOfReactants>
+          <speciesReference species="sp107"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp105"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r245">
+        <listOfReactants>
+          <speciesReference species="sp47"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp49"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r246">
+        <listOfReactants>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp129"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r247">
+        <listOfReactants>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp88"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r248">
+        <listOfReactants>
+          <speciesReference species="sp67"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp66"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r249">
+        <listOfReactants>
+          <speciesReference species="sp8"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp11"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r250">
+        <listOfReactants>
+          <speciesReference species="sp12"/>
+          <speciesReference species="sp0"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r251">
+        <listOfReactants>
+          <speciesReference species="sp117"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp127"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r252">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp24"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r253">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp69"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r254">
+        <listOfReactants>
+          <speciesReference species="sp24"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp25"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r255">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp57"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp25"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r256">
+        <listOfReactants>
+          <speciesReference species="sp30"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp44"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r257">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp52"/>
+          <speciesReference species="sp0"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r258">
+        <listOfReactants>
+          <speciesReference species="sp24"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp26"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r259">
+        <listOfReactants>
+          <speciesReference species="sp58"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp61"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r260">
+        <listOfReactants>
+          <speciesReference species="sp59"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp70"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r261">
+        <listOfReactants>
+          <speciesReference species="sp18"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp16"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r262">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp129"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp51"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r263">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp18"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r264">
+        <listOfReactants>
+          <speciesReference species="sp66"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp55"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r265">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp68"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r266">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp112"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r267">
+        <listOfReactants>
+          <speciesReference species="sp57"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp58"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r268">
+        <listOfReactants>
+          <speciesReference species="sp87"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r269">
+        <listOfReactants>
+          <speciesReference species="sp110"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp111"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r270">
+        <listOfReactants>
+          <speciesReference species="sp86"/>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp100"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r271">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp88"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp91"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r272">
+        <listOfReactants>
+          <speciesReference species="sp89"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp107"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r273">
+        <listOfReactants>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp85"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r274">
+        <listOfReactants>
+          <speciesReference species="sp122"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp124"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r275">
+        <listOfReactants>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp127"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r276">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp89"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp20"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r277">
+        <listOfReactants>
+          <speciesReference species="sp8"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp47"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r278">
+        <listOfReactants>
+          <speciesReference species="sp91"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp92"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r279">
+        <listOfReactants>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp122"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r280">
+        <listOfReactants>
+          <speciesReference species="sp67"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp80"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r281">
+        <listOfReactants>
+          <speciesReference species="sp90"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp98"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r282">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp68"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r283">
+        <listOfReactants>
+          <speciesReference species="sp59"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp56"/>
+          <speciesReference species="sp2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r284">
+        <listOfReactants>
+          <speciesReference species="sp29"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp28"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r285">
+        <listOfReactants>
+          <speciesReference species="sp19"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp23"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r286">
+        <listOfReactants>
+          <speciesReference species="sp16"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r287">
+        <listOfReactants>
+          <speciesReference species="sp114"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp4"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r288">
+        <listOfReactants>
+          <speciesReference species="sp24"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp18"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r289">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp46"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r290">
+        <listOfReactants>
+          <speciesReference species="sp118"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp114"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r291">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp120"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp16"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r292">
+        <listOfReactants>
+          <speciesReference species="sp24"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp14"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r293">
+        <listOfReactants>
+          <speciesReference species="sp8"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp6"/>
+          <speciesReference species="sp119"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r294">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp110"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp11"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r295">
+        <listOfReactants>
+          <speciesReference species="sp96"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp86"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r296">
+        <listOfReactants>
+          <speciesReference species="sp95"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp121"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r297">
+        <listOfReactants>
+          <speciesReference species="sp86"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp96"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r298">
+        <listOfReactants>
+          <speciesReference species="sp47"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp105"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r299">
+        <listOfReactants>
+          <speciesReference species="sp107"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp103"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r300">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp88"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp92"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r301">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp72"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r302">
+        <listOfReactants>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp130"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r303">
+        <listOfReactants>
+          <speciesReference species="sp67"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp77"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r304">
+        <listOfReactants>
+          <speciesReference species="sp20"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp89"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r305">
+        <listOfReactants>
+          <speciesReference species="sp57"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp125"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r306">
+        <listOfReactants>
+          <speciesReference species="sp56"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r307">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp127"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp98"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r308">
+        <listOfReactants>
+          <speciesReference species="sp87"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp88"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r309">
+        <listOfReactants>
+          <speciesReference species="sp106"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp122"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r310">
+        <listOfReactants>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp101"/>
+          <speciesReference species="sp0"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r311">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp30"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r312">
+        <listOfReactants>
+          <speciesReference species="sp20"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp32"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r313">
+        <listOfReactants>
+          <speciesReference species="sp18"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp19"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r314">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp106"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp9"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r315">
+        <listOfReactants>
+          <speciesReference species="sp76"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp74"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r316">
+        <listOfReactants>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp127"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r317">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp129"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp12"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r318">
+        <listOfReactants>
+          <speciesReference species="sp56"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp60"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r319">
+        <listOfReactants>
+          <speciesReference species="sp97"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp86"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r320">
+        <listOfReactants>
+          <speciesReference species="sp28"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp16"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r321">
+        <listOfReactants>
+          <speciesReference species="sp29"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp31"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r322">
+        <listOfReactants>
+          <speciesReference species="sp116"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp126"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r323">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r324">
+        <listOfReactants>
+          <speciesReference species="sp90"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp124"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r325">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp33"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r326">
+        <listOfReactants>
+          <speciesReference species="sp122"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp115"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r327">
+        <listOfReactants>
+          <speciesReference species="sp97"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp126"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r328">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp104"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r329">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp13"/>
+          <speciesReference species="sp0"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r330">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp120"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp55"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r331">
+        <listOfReactants>
+          <speciesReference species="sp83"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp128"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r332">
+        <listOfReactants>
+          <speciesReference species="sp19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp18"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r333">
+        <listOfReactants>
+          <speciesReference species="sp47"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp46"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r334">
+        <listOfReactants>
+          <speciesReference species="sp25"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp63"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r335">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp130"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp13"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r336">
+        <listOfReactants>
+          <speciesReference species="sp67"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp56"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r337">
+        <listOfReactants>
+          <speciesReference species="sp86"/>
+          <speciesReference species="sp114"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp95"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r338">
+        <listOfReactants>
+          <speciesReference species="sp29"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r339">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp58"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r340">
+        <listOfReactants>
+          <speciesReference species="sp28"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp66"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r341">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp15"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r342">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r343">
+        <listOfReactants>
+          <speciesReference species="sp105"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp107"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r344">
+        <listOfReactants>
+          <speciesReference species="sp110"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp104"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r345">
+        <listOfReactants>
+          <speciesReference species="sp105"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp110"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r346">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp19"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r347">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp130"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp102"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r348">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp128"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp101"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r349">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp121"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp95"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r350">
+        <listOfReactants>
+          <speciesReference species="sp68"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp57"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r351">
+        <listOfReactants>
+          <speciesReference species="sp19"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp22"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r352">
+        <listOfReactants>
+          <speciesReference species="sp25"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp57"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r353">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r354">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp19"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r355">
+        <listOfReactants>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r356">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp30"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp64"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r357">
+        <listOfReactants>
+          <speciesReference species="sp55"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp57"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r358">
+        <listOfReactants>
+          <speciesReference species="sp25"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp24"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r359">
+        <listOfReactants>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp130"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r360">
+        <listOfReactants>
+          <speciesReference species="sp16"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp28"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r361">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp30"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r362">
+        <listOfReactants>
+          <speciesReference species="sp116"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp125"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r363">
+        <listOfReactants>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r364">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp54"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp65"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r365">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp54"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp27"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r366">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp127"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp113"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r367">
+        <listOfReactants>
+          <speciesReference species="sp19"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp58"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r368">
+        <listOfReactants>
+          <speciesReference species="sp120"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp125"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r369">
+        <listOfReactants>
+          <speciesReference species="sp39"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp42"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r370">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp19"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp26"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r371">
+        <listOfReactants>
+          <speciesReference species="sp16"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp55"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r372">
+        <listOfReactants>
+          <speciesReference species="sp29"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp17"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r373">
+        <listOfReactants>
+          <speciesReference species="sp16"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp120"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r374">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp15"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp26"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r375">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp110"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp79"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r376">
+        <listOfReactants>
+          <speciesReference species="sp55"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp66"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r377">
+        <listOfReactants>
+          <speciesReference species="sp87"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp95"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r378">
+        <listOfReactants>
+          <speciesReference species="sp16"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp17"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r379">
+        <listOfReactants>
+          <speciesReference species="sp39"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp95"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r380">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp60"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r381">
+        <listOfReactants>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp129"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r382">
+        <listOfReactants>
+          <speciesReference species="sp25"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp27"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r383">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp53"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r384">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r385">
+        <listOfReactants>
+          <speciesReference species="sp88"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp96"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r386">
+        <listOfReactants>
+          <speciesReference species="sp17"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp56"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r387">
+        <listOfReactants>
+          <speciesReference species="sp95"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp87"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r388">
+        <listOfReactants>
+          <speciesReference species="sp119"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp123"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r389">
+        <listOfReactants>
+          <speciesReference species="sp30"/>
+          <speciesReference species="sp2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp41"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r390">
+        <listOfReactants>
+          <speciesReference species="sp110"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp121"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r391">
+        <listOfReactants>
+          <speciesReference species="sp68"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp81"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r392">
+        <listOfReactants>
+          <speciesReference species="sp106"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp103"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r393">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp61"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r394">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp67"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r395">
+        <listOfReactants>
+          <speciesReference species="sp107"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp89"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r396">
+        <listOfReactants>
+          <speciesReference species="sp18"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r397">
+        <listOfReactants>
+          <speciesReference species="sp29"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp124"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r398">
+        <listOfReactants>
+          <speciesReference species="sp59"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp89"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r399">
+        <listOfReactants>
+          <speciesReference species="sp8"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp10"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r400">
+        <listOfReactants>
+          <speciesReference species="sp39"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp37"/>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r401">
+        <listOfReactants>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r402">
+        <listOfReactants>
+          <speciesReference species="sp59"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp20"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r403">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r404">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp85"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp70"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r405">
+        <listOfReactants>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp123"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r406">
+        <listOfReactants>
+          <speciesReference species="sp58"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp69"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r407">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp53"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r408">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+          <speciesReference species="sp114"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp66"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r409">
+        <listOfReactants>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp54"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r410">
+        <listOfReactants>
+          <speciesReference species="sp106"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp108"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r411">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp30"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp26"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r412">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp53"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp63"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r413">
+        <listOfReactants>
+          <speciesReference species="sp119"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp114"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r414">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp29"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r415">
+        <listOfReactants>
+          <speciesReference species="sp106"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp105"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r416">
+        <listOfReactants>
+          <speciesReference species="sp97"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp112"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r417">
+        <listOfReactants>
+          <speciesReference species="sp103"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp106"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r418">
+        <listOfReactants>
+          <speciesReference species="sp28"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp29"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r419">
+        <listOfReactants>
+          <speciesReference species="sp88"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r420">
+        <listOfReactants>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp116"/>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r421">
+        <listOfReactants>
+          <speciesReference species="sp57"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r422">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp54"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r423">
+        <listOfReactants>
+          <speciesReference species="sp17"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp16"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r424">
+        <listOfReactants>
+          <speciesReference species="sp58"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r425">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp103"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r426">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp125"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp18"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r427">
+        <listOfReactants>
+          <speciesReference species="sp30"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp28"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r428">
+        <listOfReactants>
+          <speciesReference species="sp91"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp85"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r429">
+        <listOfReactants>
+          <speciesReference species="sp126"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp121"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r430">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp89"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp59"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r431">
+        <listOfReactants>
+          <speciesReference species="sp67"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp124"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r432">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp7"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r433">
+        <listOfReactants>
+          <speciesReference species="sp59"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp60"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r434">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp122"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp106"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r435">
+        <listOfReactants>
+          <speciesReference species="sp16"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp18"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r436">
+        <listOfReactants>
+          <speciesReference species="sp107"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp123"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r437">
+        <listOfReactants>
+          <speciesReference species="sp123"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp115"/>
+          <speciesReference species="sp116"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r438">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp96"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp99"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r439">
+        <listOfReactants>
+          <speciesReference species="sp96"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp111"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r440">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp56"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r441">
+        <listOfReactants>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp128"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r442">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp130"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp52"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r443">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp37"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r444">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp122"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp88"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r445">
+        <listOfReactants>
+          <speciesReference species="sp114"/>
+          <speciesReference species="sp114"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp118"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r446">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp123"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp107"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r447">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp105"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp8"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r448">
+        <listOfReactants>
+          <speciesReference species="sp57"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp18"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r449">
+        <listOfReactants>
+          <speciesReference species="sp54"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp15"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r450">
+        <listOfReactants>
+          <speciesReference species="sp53"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp51"/>
+          <speciesReference species="sp0"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r451">
+        <listOfReactants>
+          <speciesReference species="sp127"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp124"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r452">
+        <listOfReactants>
+          <speciesReference species="sp114"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp121"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r453">
+        <listOfReactants>
+          <speciesReference species="sp63"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp57"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r454">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp97"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp78"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r455">
+        <listOfReactants>
+          <speciesReference species="sp25"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp18"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r456">
+        <listOfReactants>
+          <speciesReference species="sp110"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp105"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r457">
+        <listOfReactants>
+          <speciesReference species="sp95"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp110"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r458">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp86"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r459">
+        <listOfReactants>
+          <speciesReference species="sp39"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp28"/>
+          <speciesReference species="sp2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r460">
+        <listOfReactants>
+          <speciesReference species="sp56"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp123"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r461">
+        <listOfReactants>
+          <speciesReference species="sp85"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r462">
+        <listOfReactants>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r463">
+        <listOfReactants>
+          <speciesReference species="sp51"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp12"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r464">
+        <listOfReactants>
+          <speciesReference species="sp130"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp129"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r465">
+        <listOfReactants>
+          <speciesReference species="sp86"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp97"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r466">
+        <listOfReactants>
+          <speciesReference species="sp30"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp68"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r467">
+        <listOfReactants>
+          <speciesReference species="sp20"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp59"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r468">
+        <listOfReactants>
+          <speciesReference species="sp90"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp88"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r469">
+        <listOfReactants>
+          <speciesReference species="sp127"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp117"/>
+          <speciesReference species="sp117"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r470">
+        <listOfReactants>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp114"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r471">
+        <listOfReactants>
+          <speciesReference species="sp2"/>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp96"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r472">
+        <listOfReactants>
+          <speciesReference species="sp55"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp16"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r473">
+        <listOfReactants>
+          <speciesReference species="sp85"/>
+          <speciesReference species="sp117"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp90"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r474">
+        <listOfReactants>
+          <speciesReference species="sp97"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp95"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r475">
+        <listOfReactants>
+          <speciesReference species="sp30"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp31"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r476">
+        <listOfReactants>
+          <speciesReference species="sp14"/>
+          <speciesReference species="sp103"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp21"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r477">
+        <listOfReactants>
+          <speciesReference species="sp66"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp79"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r478">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp53"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r479">
+        <listOfReactants>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp128"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp115"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r480">
+        <listOfReactants>
+          <speciesReference species="sp57"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp55"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r481">
+        <listOfReactants>
+          <speciesReference species="sp105"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp106"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r482">
+        <listOfReactants>
+          <speciesReference species="sp103"/>
+          <speciesReference species="sp116"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp107"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r483">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp86"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp74"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r484">
+        <listOfReactants>
+          <speciesReference species="sp87"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp89"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r485">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+          <speciesReference species="sp124"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp67"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r486">
+        <listOfReactants>
+          <speciesReference species="sp105"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp87"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r487">
+        <listOfReactants>
+          <speciesReference species="sp82"/>
+          <speciesReference species="sp106"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp109"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r488">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp68"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp27"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r489">
+        <listOfReactants>
+          <speciesReference species="sp123"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp124"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r490">
+        <listOfReactants>
+          <speciesReference species="sp115"/>
+          <speciesReference species="sp115"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp122"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r491">
+        <listOfReactants>
+          <speciesReference species="sp29"/>
+          <speciesReference species="sp82"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp43"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r492">
+        <listOfReactants>
+          <speciesReference species="sp8"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp105"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r493">
+        <listOfReactants>
+          <speciesReference species="sp119"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp118"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

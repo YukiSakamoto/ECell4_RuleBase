@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model>
+    <listOfUnitDefinitions>
+      <unitDefinition id="per_second"/>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="cytosol" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="sp6" name="egf(r^1).egfr(l^1,r,Y1068=Y,Y1148=Y)" compartment="cytosol" initialAmount="0"/>
+      <species id="sp0" name="egf(r)" compartment="cytosol" initialAmount="0.1"/>
+      <species id="sp2" name="Shc(PTB,Y317=Y)" compartment="cytosol" initialAmount="0.3"/>
+      <species id="sp4" name="egfr(l,r,Y1068=Y,Y1148=Y)" compartment="cytosol" initialAmount="0.5"/>
+      <species id="sp1" name="Grb2(SH2,SH3)" compartment="cytosol" initialAmount="0.2"/>
+      <species id="sp5" name="Grb2(SH2,SH3^1).Sos(dom^1)" compartment="cytosol" initialAmount="0.6"/>
+      <species id="sp3" name="Sos(dom)" compartment="cytosol" initialAmount="0.4"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="r0">
+        <listOfReactants>
+          <speciesReference species="sp0"/>
+          <speciesReference species="sp4"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp6"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r1">
+        <listOfReactants>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp5"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="r2">
+        <listOfReactants>
+          <speciesReference species="sp5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="sp1"/>
+          <speciesReference species="sp3"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
